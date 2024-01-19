@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Outfit:wght@500&family=Roboto&family=Rubik:wght@300&family=Ubuntu:wght@500&display=swap');
+
+
+body {
+    background-color: rgb(209, 234, 248);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-bold {
+    font-weight: bolder;
+
+}
+
+.my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.px-2 {
+    padding-left: 14px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: rgb(227 74 56);
+}
+
+.btn {
+    padding: 7px 10px;
+
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 1px 1px 3px black;
+
+    background-color: rgb(114, 198, 247);
+}
+
+.navbar button:hover {
+
+    color: white;
+
+}
+
+header {
+    Position: sticky;
+    top: 0px;
+    background-color: rgb(2, 10, 15);
+    z-index: 20;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    color: rgb(114, 198, 247);
+}
+
+.navh:hover {
+    text-decoration: underline rgb(114, 198, 247) 2px;
+    color: rgb(114, 198, 247);
+
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #711e15;
+}
+
+.section1 p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.section1 h1 {
+    color: black;
+    font-size: 2.2rem;
+
+}
+
+.red {
+    color: rgb(230, 35, 35);
+}
+
+.section1 button {
+    color: black;
+    width: 100px;
+    padding: 8px 14px;
+    margin: 16px 8px;
+    font-size: 15px;
+    background-color: rgb(114, 198, 247);
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    box-shadow: 2px 1px 4px black;
+}
+
+.btn1:hover {
+    color: rgb(21, 132, 196);
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+    padding-left: 77px;
+
+}
+
+.topright .yoga {
+    width: 460px;
+}
+
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+
+
+.paragraph {
+    font-size: 12px;
+}
+
+.section2 {
+    padding: 70px;
+
+
+}
+
+.wrap-box {
+    flex-wrap: wrap-reverse;
+}
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    padding: 15px 1px;
+    margin: 30px 22px;
+    min-width: 18vw;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 4px 11px black;
+    background-color: rgb(153, 206, 236);
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.12);
+}
+
+.btn2 {
+    padding: 7px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(12, 31, 73);
+    box-shadow: 2px 1px 4px black;
+}
+
+.btn2:hover {
+    color: rgb(124, 124, 124);
+    width: 93px;
+}
+
+.javalogo {
+    width: 90px;
+
+}
+
+.pythonlogo {
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+.sqllogo {
+    width: 85px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.datalogo {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.cllogo {
+    width: 70px;
+}
+
+.devlogo {
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.box h3 {
+    font-weight: bold;
+    color: rgb(12, 31, 73);
+}
+
+.highlighter {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #141111;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 8px 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h1 {
+    color: rgb(227 74 56);
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+}
+
+.content {
+    padding: 20px;
+
+}
+
+@media (max-width:440px) {
+    
+
+    .logo {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .navbar li {
+        margin: 0 8px;
+        font-size: 10px;
+    }
+    .topleft{
+        width: 100%;
+    }
+    .topright{
+        width:0px;
+    }
+    .topright img{
+        
+        display: none;
+    }
+    .section1 h1{
+        font-size: 20px;
+        margin-right: 42px;
+        margin-left: 42px;
+    }
+    .section1 button {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        padding: 4px 7px;
+        margin: 16px 8px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .btncen{
+        margin: 15px auto;
+    }
+    .btn{
+        padding: 2px 2.5px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        max-height: fit-content;
+    }
+    footer h1 {
+        
+        font-size: 30px;
+    }
+    
+  
+}
